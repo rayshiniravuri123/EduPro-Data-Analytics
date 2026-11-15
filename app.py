@@ -48,10 +48,10 @@ st.markdown("### Student, Course and Revenue Insights")
 # 3. LOAD DATASETS
 # =====================================
 
-users = pd.read_csv("data/users.csv")
-courses = pd.read_csv("data/courses.csv")
-transactions = pd.read_csv("data/transactions.csv")
-teachers = pd.read_csv("data/teachers.csv")
+users = pd.read_csv("users.csv")
+courses = pd.read_csv("courses.csv")
+teachers = pd.read_csv("teachers.csv")
+transactions = pd.read_csv("transactions.csv")
 
 users["Age"] = pd.to_numeric(users["Age"], errors="coerce")
 transactions["Amount"] = pd.to_numeric(
