@@ -32,3 +32,14 @@ streamlit run app.py
 
 Author
 Rayshini Ravuri
+
+
+
+
+## Project Links
+
+**GitHub Repository:**
+https://github.com/rayshiniravuri123/EduPro-Data-Analytics
+
+**Live Dashboard:**
+https://edupro-data-analytics4-2t5nicimbttjtektbphfzp.streamlit.app/
